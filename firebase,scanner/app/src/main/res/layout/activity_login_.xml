@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:fontFamily="sans-serif-medium"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:padding="15dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/green"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="10dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:background="@drawable/custom_edit_box">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:src="@drawable/user_custom_logo"-->
+<!--                    android:layout_gravity="center" />-->
+
+<!--                <EditText-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:hint="Enter your Name"-->
+<!--                    android:textColor="#DA000000"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:inputType="text"-->
+<!--                    android:fontFamily="sans-serif-medium"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:background="@android:color/transparent" />-->
+<!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/custom_edit_box">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/mail_custom_logo"
+                    android:layout_gravity="center"/>
+                <EditText
+                    android:id="@+id/loginmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:hint="Enter your email id"
+                    android:textColor="#000"
+                    android:layout_gravity="center"
+                    android:inputType="text"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/custom_edit_box">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/padlock"
+                    android:layout_gravity="center"/>
+
+                <EditText
+                    android:id="@+id/loginpass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:hint="Enter your password"
+                    android:textColor="#DA000000"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-medium"
+                    android:inputType="text"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/transparent" />
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:padding="10dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:background="@drawable/custom_edit_box">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="30dp"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:src="@drawable/padlock"-->
+<!--                    android:layout_gravity="center"/>-->
+
+<!--                <EditText-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:hint="Retype your passsword"-->
+<!--                    android:textColor="#DA000000"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:fontFamily="sans-serif-medium"-->
+<!--                    android:inputType="text"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:background="@android:color/transparent" />-->
+<!--            </LinearLayout>-->
+
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:padding="7dp"
+                android:fontFamily="monospace"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/login_background"
+                android:gravity="center_horizontal" />
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Register here!"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="16sp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
